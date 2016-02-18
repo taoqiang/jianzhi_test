@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+/*header*/
+.header-icon-add:before,
+.header-icon-add:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 17px;
+    height: 2.5px;
+    margin: -1px 0 0 -8px;
+    background-color: #ffaa2c;
+}
+
+.header-icon-add:after {
+    width: 2.5px;
+    height: 17px;
+    margin: -8px 0 0 -1px;
+}
+
+.header-icon-add.touch:before,
+.header-icon-add.touch:after {
+    background-color: #ffcc80;
+}
+
+/*header end*/
+
+/*tab*/
+.b-list-tab {
+    position: fixed;
+    top: 44px;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    text-align: center;
+    line-height: 42px;
+    background-color: #fff;
+    border-top: 8px solid #f2f2f2;
+    color: #808080;
+}
+
+.b-list-tab strong {
+    display: inline-block;
+    padding: 0 8px;
+    margin-bottom: 1px;
+    font-size: 15px;
+    font-size: 0.15rem;
+    color: #808080;
+    border-bottom: 2px solid transparent;
+}
+
+.b-list-tab  .active strong {
+    color: #404040;
+    border-bottom-color: #ff651f;
+}
+
+/*tab end*/
+
+/*b-list*/
+[class^="b-listicon-"] {
+    background: url(http://sta.ganji.com/src/image/mobile/app/parttime_job/dealer/icon_list.png) no-repeat;
+    background-size: auto 163px;
+    -ms-background-size: auto 163px;
+    -webkit-background-size: auto 163px;
+}
+
+.b-listicon-tip,
+.b-listicon-time {
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
+}
+
+.b-listicon-time {
+    background-position: 0 -16px;
+}
+
+.b-listicon-list,
+.b-listicon-center {
+    display: inline-block;
+    width: 25px;
+    height: 26px;
+    background-position: 0 -31.5px;
+}
+
+.b-list-nav .active .b-listicon-list {
+    background-position: 0 -60px;
+}
+
+.b-listicon-center {
+    background-position: 0 -89.5px;
+}
+
+.b-list-nav .active .b-listicon-center {
+    background-position: 0 -118px;
+}
+
+/*icon end*/
+.header-icon-add {
+    display: block;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    margin-right: -12px;
+}
+
+.b-list-wrap {
+    position: relative;
+    min-height: 100%;
+    padding-top: 96px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.b-list li {
+    background: #fff;
+    margin-bottom: 8px;
+}
+
+.b-list-cont {
+    padding: 12px;
+    color: #404040;
+}
+
+.b-list-imgbox {
+    width: 58px;
+    height: 58px;
+    overflow: hidden;
+    margin-right: 12px;
+}
+
+.b-list-imgbox img {
+    width: 100%;
+}
+
+.b-list-r {
+    position: relative;
+    min-width: 75px;
+}
+
+.b-list-r-txt {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -10px;
+    font-weight: 500;
+    font-size: 17px;
+    font-size: 0.17rem;
+}
+
+.b-list-status1,
+.b-list-status4 {
+    color: #404040;
+}
+
+.b-list-status2 {
+    color: #808080;
+}
+
+.b-list-status3,
+.b-list-status6 {
+    color: #bfbfbf;
+}
+
+.b-list-status5 {
+    color: #ff651f;
+}
+
+.b-list-tit {
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    font-size: 16px;
+    font-size: 0.16rem;
+}
+
+.b-list-txt {
+    margin-top: 4px;
+    font-size: 12px;
+    font-size: 0.12rem;
+    color: #808080;
+}
+
+.b-list-dtltab {
+    text-align: center;
+}
+
+.b-list-dtltab .com-flex-item {
+    padding: 18px 0 8px;
+}
+
+.b-list-dtltab em {
+    display: block;
+	position:relative;
+    font-weight: 500;
+    font-size: 17px;
+    font-size: 0.17rem;
+}
+
+.b-list-dtltab em .sign-dot{ 
+	display:block;
+	position:absolute; 
+	top:0; 
+	left:50%; 
+	background-color:#f24649; 
+	width:9px; 
+	height:9px; 
+	border-radius:50%; 
+	margin-left:42px;
+}
+
+
+.b-list-dtltab small {
+    display: block;
+    margin-top: 8px;
+    font-size: 10px;
+    font-size: 0.1rem;
+    color: #808080;
+}
+
+.b-list-nav {
+    padding-top: 6px;
+    height: 50px;
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
+}
+
+.b-list-nav em {
+    display: block;
+    font-size: 10px;
+    font-size: 0.1rem;
+    color: #808080;
+}
+
+.b-list-nav .active em {
+    color: #ffaa2c;
+}
+
+/*b-list end*/
+
+/*active*/
+.b-list-dtltab a:active,
+.b-list-cont:active {
+    background-color: #e6e6e6;
+}
+
+.has-tabbox .b-list-tab {
+    border-top: 0 none;
+}

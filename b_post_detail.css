@@ -1,0 +1,334 @@
+@charset "utf-8";
+
+/*header*/
+.header-userlist-link {
+    color: #808080;
+}
+
+/*header end*/
+.b-postdetail-wrap {
+    position: relative;
+    min-height: 100%;
+    padding-top: 44px;
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #fff;
+}
+
+.b-postdtl-hintbox {
+    position: relative;
+    padding: 15px;
+    font-size: 13px;
+    font-size: 0.13rem;
+    background-color: #f2f2f2;
+    color: #ffaa2c;
+}
+
+.b-postdtl-hintbox p {
+    margin-bottom: 5px;
+}
+
+.b-postdtl-hintbox p:last-child {
+    margin-bottom: 0;
+}
+
+.b-postdtl-tell {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    color: #2ca6ff;
+}
+
+.b-postdtl-tell:active {
+    opacity: .6;
+    filter: alpha(opacity = 60);
+}
+
+/*b-postdtl-box*/
+.b-postdtl-box {
+    padding: 12px;
+    border-bottom: 8px solid #f2f2f2;
+}
+
+.b-postdtl-img {
+    width: 58px;
+    height: 58px;
+    margin-right: 12px;
+}
+
+.b-postdtl-img img {
+    width: 100%;
+}
+
+.b-postdtl-tit {
+    display: inline-block;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+}
+
+.b-postdtl-tit em {
+    font-weight: 500;
+    font-size: 16px;
+    font-size: 0.16rem;
+}
+
+.b-postdtl-sinfo {
+    color: #808080;
+}
+
+.b-postdtl-sinfo i {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 15px;
+    font-size: 0.15rem;
+}
+
+.b-postdtl-r {
+    position: relative;
+    min-width: 100px;
+    text-align: right;
+}
+
+[class^="b-postdtl-status"] {
+    font-weight: 500;
+    font-size: 17px;
+    font-size: 0.17rem;
+}
+
+.b-postdtl-status1,
+.b-postdtl-status3 {
+    color: #404040;
+}
+
+.b-postdtl-status2 {
+    color: #bfbfbf;
+}
+
+.b-postdtl-pay {
+    line-height: 1.125;
+    font-size: 12px;
+    font-size: 0.12rem;
+    color: #808080;
+}
+
+.b-postdtl-pay i {
+    font-size: 20px;
+    font-size: 0.2rem;
+    color: #ffa100;
+}
+
+/*b-postdtl-box end*/
+
+/*b-postdtl-unit*/
+
+.b-postdtl-assure {
+    padding-bottom: 5px;
+    line-height: 16px;
+    letter-spacing: -.5px;
+    font-size: 12px;
+    font-size: 0.12rem;
+    color: #34a853;
+}
+
+.b-postdtl-award {
+    padding: 0 0 10px 22px;
+    overflow: hidden;
+    letter-spacing: -.5px;
+    font-size: 12px;
+    font-size: 0.12rem;
+}
+
+.b-postdtl-award p {
+    margin-bottom: 5px;
+}
+
+.b-postdtl-site1 {
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: normal;
+    font-size: 14px;
+    font-size: 0.14rem;
+    color: #fbbc05;
+}
+
+/*b-postdtl-unit end*/
+
+/*icon*/
+[class^="b-postdtl-icon-"] {
+    background: url(../../../../../image/mobile/app/parttime_job/dealer/icon_postdetail.png?v=0217) no-repeat;
+    -ms-background-size: 62px auto;
+    -webkit-background-size: 62px auto;
+    background-size: 62px auto;
+}
+
+.b-postdtl-icon-site,
+.b-postdtl-icon-time {
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
+}
+
+.b-postdtl-icon-time {
+    background-position: 0 -19.5px;
+}
+
+.b-postdtl-icon-assure {
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: -3px;
+    width: 62px;
+    height: 16px;
+    background-position: 0 -36px;
+}
+
+.b-postdtl-icon-award {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-left: -22px;
+    background-position: 0 -60px;
+}
+
+.b-postdtl-icon-site1 {
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: 0;
+    width: 11px;
+    height: 11px;
+    background-position: 0 -80.5px;
+}
+
+.b-postdtl-icon-share {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -15px 0;
+    line-height: 999em;
+    margin-right: 0;
+    margin-top: 12px;
+    overflow: hidden;
+}
+
+/*icon end*/
+
+/*more*/
+.b-dtl-more {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    padding-right: 14px;
+    margin-top: -7px;
+    line-height: 1.125;
+    font-size: 13px;
+    font-size: 0.13rem;
+    color: #fbbc05;
+}
+
+.b-dtl-more:before,
+.b-dtl-more:after {
+    content: "";
+    position: absolute;
+    right: 2px;
+    top: 3px;
+    width: 6px;
+    height: 6px;
+    border-top: 1px solid #fbbc05;
+    border-right: 1px solid #fbbc05;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.b-dtl-more:before {
+    right: 6px;
+}
+
+/* JZ-1264 */
+.pop-share .com-pop-cont {
+    padding: 10px;
+}
+
+.pop-share .share-info {
+    display: block;
+    padding: 5px 0;
+}
+
+.pop-share .share-info b {
+    display: block;
+    color: #808080;
+    font-size: .14rem;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.pop-share .icon-wechat,
+.pop-share .icon-qq,
+.pop-share .icon-wechat-pyq,
+.pop-share .icon-qzone {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-clip: padding-box;
+    border-radius: 100%;
+    margin: 5px auto;
+}
+
+.pop-share .icon-wechat::after,
+.pop-share .icon-qq::after,
+.pop-share .icon-wechat-pyq::after,
+.pop-share .icon-qzone::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    background: url(../../../../../image/mobile/app/parttime_job/dealer/icon_share.png) no-repeat;
+    -ms-background-size: 100px auto;
+    -webkit-background-size: 100px auto;
+    background-size: 100px auto;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.pop-share .icon-wechat {
+    background-color: #35d150;
+}
+
+.pop-share .icon-wechat::after {
+    width: 35px;
+    background-position: 0 0;
+}
+
+.pop-share .icon-qq {
+    background-color: #00a3eb;
+}
+
+.pop-share .icon-qq::after {
+    background-position: -35px 0;
+}
+
+.pop-share .icon-wechat-pyq {
+    background-color: #00cb5d;
+}
+
+.pop-share .icon-wechat-pyq::after {
+    background-position: -65px 0;
+}
+
+.pop-share .icon-qzone {
+    background-color: #ffd52d;
+}
+
+.pop-share .icon-qzone::after {
+    background-position: 0 -30px;
+}
